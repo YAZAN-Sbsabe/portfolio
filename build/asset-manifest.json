@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d950bc01.css",
+    "main.js": "/static/js/main.afc7ef3f.js",
+    "static/media/- (58) copy.jpg": "/static/media/- (58) copy.a7ff4b5da49e80ba9637.jpg",
+    "static/media/test2@2x.png": "/static/media/test2@2x.baf6e5749f743d89c9de.png",
+    "static/media/test1@2x.png": "/static/media/test1@2x.13ac96df8c2a2dd3a582.png",
+    "static/media/Instagram Story.png": "/static/media/Instagram Story.f9762581fd12ee13df6b.png",
+    "static/media/test3@2x.png": "/static/media/test3@2x.fb52067078c3dfc268a2.png",
+    "static/media/Instagram Story – 1.png": "/static/media/Instagram Story – 1.46461c18de01b0ad7fcf.png",
+    "static/media/Mouk up@2x.png": "/static/media/Mouk up@2x.4c5103ce57a932d4c1cb.png",
+    "static/media/Web 1920 – 1@2x.png": "/static/media/Web 1920 – 1@2x.faf5adf8fcce951a6f1a.png",
+    "static/media/-__58__copy-removebg-preview.png": "/static/media/-__58__copy-removebg-preview.ab9959cb8ac2660feede.png",
+    "static/media/MoukUp.png": "/static/media/MoukUp.dc331338f89e04d2f387.png",
+    "static/media/Mouk up.png": "/static/media/Mouk up.2f054cf8b033f8fe7df7.png",
+    "static/media/CV1.pdf": "/static/media/CV1.edde6093175a371f5777.pdf",
+    "index.html": "/index.html",
+    "main.d950bc01.css.map": "/static/css/main.d950bc01.css.map",
+    "main.afc7ef3f.js.map": "/static/js/main.afc7ef3f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d950bc01.css",
+    "static/js/main.afc7ef3f.js"
+  ]
+}

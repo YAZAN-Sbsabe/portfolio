@@ -5,7 +5,7 @@ import { BiBook } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { BsMessenger } from "react-icons/bs";
 // import { BsImages } from "react-icons/bs";
-import { NavLink } from "react-bootstrap";
+// import { NavLink } from "react-bootstrap";
 
 const Nav = () => {
   const [activeviwo, setactiveviwo] = useState("#");

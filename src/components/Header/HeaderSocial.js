@@ -6,7 +6,7 @@ const HeaderSocial = () => {
       <a href="https://linkedin.com" target="_blank">
         <BsLinkedin style={{ color: "#4db5ff" }} />
       </a>
-      <a href="https://github.com" target="_blank">
+      <a href="https://github.com/YAZAN-Sbsabe" target="_blank">
         <BsGithub style={{ color: "#4db5ff" }} />
       </a>
       <a href="https://www.facebook.com/YAZAN.Graphy/" target="_blank">

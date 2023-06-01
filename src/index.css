@@ -93,6 +93,7 @@ section > h2 {
 .btn-primary {
   background-color: var(--color-primary);
   color: var(--color-bg);
+  cursor: pointer;
 }
 img {
   width: 100%;

@@ -50,14 +50,14 @@ textarea {
   resize: none;
   color: var(--color-white);
 }
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .container.contact_container {
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
   }
 }
-@media screen and (max-width: 600px) {
+@media (max-width: 690px) {
   .container.contact_container {
     width: var(--container-width-sm);
   }

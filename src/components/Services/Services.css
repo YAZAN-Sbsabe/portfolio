@@ -41,7 +41,7 @@
 .service_list p {
   font-size: 0.9rem;
 }
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
   .services_container {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
@@ -52,7 +52,7 @@
     margin: 0 auto;
   }
 }
-@media screen and (max-width: 600px) {
+@media (max-width: 690px) {
   .services_container {
     grid-template-columns: 1fr;
     gap: 1.2rem;

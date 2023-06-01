@@ -9,12 +9,14 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import { useSpring, animated } from 'react-spring';
 import { useState } from "react";
+import Skills from "./components/Skills/Skills";
 function App() {
   return (
     <div className="App">
       <Header />
       <Nav />
       <About />
+      <Skills />
       <Experience />
       <Services />
       <Protofilo />

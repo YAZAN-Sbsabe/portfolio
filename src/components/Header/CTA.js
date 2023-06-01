@@ -1,14 +1,15 @@
 import React from "react";
-import pdf from "../../image/CV1.pdf";
+import pdf from "../../image/React CV.pdf";
+import { Link } from "react-scroll";
 const CTA = () => {
   return (
     <div className="CTA">
       <a href={pdf} download className="btn">
         DownLoad CV
       </a>
-      <a href="#Contact" className="btn btn-primary">
+      <Link to="Contact" className="btn btn-primary">
         Let's Talk
-      </a>
+      </Link>
     </div>
   );
 };

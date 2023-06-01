@@ -1,0 +1,114 @@
+.skills .skills_container {
+  width: 80%;
+}
+.skills .skills_container .skills_cards {
+  width: 70%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+.skills .skills_container .skills_cards .skills_card .hreader-skills_card {
+  display: "flex";
+  justify-content: "center";
+  align-items: "center";
+  margin-bottom: "10px";
+}
+.skills .skills_container .skills_cards .skills_card {
+  background-color: var(--color-bg-variant);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  transition: var(--transition);
+  transition: all 0.8s ease-in-out;
+}
+.skills .skills_container .skills_cards .skills_card p {
+  font-size: 35px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+.skills .skills_container .skills_cards .skills_card small {
+  opacity: 0.8;
+  font-size: 17px;
+  white-space: break-spaces;
+  width: fit-content !important;
+  display: inline-block;
+}
+.skills .skills_container .skills_cards .skills_card.out {
+  transform: translateX(-100%);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.skills .skills_container .skills_cards .skills_card .hreader-skills_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills
+  .skills_container
+  .skills_cards
+  .skills_card
+  .hreader-skills_card
+  label {
+  margin-left: 10px;
+}
+.skills .btn-next {
+  margin: 50px auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills .btn-next button {
+  background-color: transparent;
+  color: var(--color-primary);
+  font-size: 30px;
+  margin: 0 50px;
+}
+.skills .btn-next label {
+  font-size: 25px;
+}
+@media (max-width: 690px) {
+  .skills .skills_container .skills_cards .skills_card .hreader-skills_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .skills
+    .skills_container
+    .skills_cards
+    .skills_card
+    .hreader-skills_card
+    label {
+    font-size: 12px;
+    white-space: nowrap;
+  }
+  .skills .skills_container .skills_cards {
+    width: 100%;
+    display: block;
+  }
+  .skills .skills_container {
+    width: 100%;
+  }
+  .skills .skills_container .skills_cards .skills_card {
+    padding: 1rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .about_icon {
+    font-size: 25px;
+  }
+  .skills .skills_container .skills_cards .skills_card p {
+    margin-top: 10px;
+    font-size: 25px;
+  }
+  .skills .skills_container .skills_cards .skills_card small {
+    font-size: 15px;
+  }
+}

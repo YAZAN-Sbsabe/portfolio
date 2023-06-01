@@ -21,7 +21,7 @@
 }
 .Protofilo .between-btn button {
   cursor: pointer;
-  margin: 0 150px;
+  margin: 0 50px;
   font-size: 25px;
   background-color: transparent;
   color: var(--color-white);
@@ -31,7 +31,7 @@
 .Protofilo .between-btn button:hover::before {
   position: absolute;
   content: "";
-  width: 50px;
+  width: 80px;
   height: 2px;
   background-color: var(--color-primary);
   bottom: -5px;
@@ -39,21 +39,27 @@
   transition: all 0.5s ease-in-out;
   border: 0;
 }
+.Protofilo .between-btn button.active,
+.Protofilo .between-btn button:hover.active {
+  color: var(--color-primary-variant) !important;
+}
 .Protofilo .between-btn button.active::before {
   position: absolute;
   content: "";
-  width: 50px;
+  width: 70px;
   height: 2px;
   background-color: var(--color-primary);
   bottom: -5px;
   border-radius: 50%;
   transition: all 0.5s ease-in-out;
+  transform: translate(50%);
 }
 .Protofilo .between-btn button:hover::before {
   width: 120px;
   height: 2px;
   border-radius: 50%;
   transition: all 0.5s ease-in-out;
+  transform: translate(20%);
 }
 .protofilo_container {
   display: grid;
@@ -105,7 +111,7 @@
   }
   .Protofilo .between-btn button {
     padding: 0;
-    margin: 0 auto;
+    margin: 0 20px;
     font-size: 18px;
   }
 }

@@ -51,48 +51,114 @@ const Experience = () => {
           >
             <h3>FrontEnd Development</h3>
             <div className="experience_content">
-              <article className="experience_details">
-                <HiBadgeCheck className="experience_details-icon" />
-                <div>
-                  <h4>H T M L</h4>
-                  <small className="text-light">Experienced</small>
-                </div>
-              </article>
-              <article className="experience_details">
-                <HiBadgeCheck className="experience_details-icon" />
-                <div>
-                  <h4>Css</h4>
-                  <small className="text-light">Experienced</small>
-                </div>
-              </article>
-              <article className="experience_details">
-                <HiBadgeCheck className="experience_details-icon" />
-                <div>
-                  <h4>React Js</h4>
-                  <small className="text-light">Intermediate</small>
-                </div>
-              </article>
-              <article className="experience_details">
-                <HiBadgeCheck className="experience_details-icon" />
-                <div>
-                  <h4>Java Script</h4>
-                  <small className="text-light">Intermediate</small>
-                </div>
-              </article>
-              <article className="experience_details">
-                <HiBadgeCheck className="experience_details-icon" />
-                <div>
-                  <h4>BootStrap</h4>
-                  <small className="text-light">Intermediate</small>
-                </div>
-              </article>
-              <article className="experience_details">
-                <HiBadgeCheck className="experience_details-icon" />
-                <div>
-                  <h4>Tailwind Css</h4>
-                  <small className="text-light">Intermediate</small>
-                </div>
-              </article>
+              <div className="experience_content-box">
+                <article className="experience_details">
+                  <HiBadgeCheck className="experience_details-icon" />
+                  <div>
+                    <h4>H T M L</h4>
+                    <small className="text-light">Experienced</small>
+                  </div>
+                </article>
+                <article className="experience_details">
+                  <HiBadgeCheck className="experience_details-icon" />
+                  <div>
+                    <h4>React Js</h4>
+                    <small className="text-light">Intermediate</small>
+                  </div>
+                </article>
+                <article className="experience_details">
+                  <HiBadgeCheck className="experience_details-icon" />
+                  <div>
+                    <h4>BootStrap</h4>
+                    <small className="text-light">Intermediate</small>
+                  </div>
+                </article>
+              </div>
+              <div className="experience_content-box-react">
+                <article className="experience_details">
+                  <HiBadgeCheck className="experience_details-icon" />
+                  <div>
+                    <h4>Css</h4>
+                    <small className="text-light">Experienced</small>
+                  </div>
+                </article>
+                <article className="experience_details">
+                  <HiBadgeCheck className="experience_details-icon" />
+                  <div>
+                    <h4>Redux</h4>
+                    <small className="text-light">Intermediate</small>
+                  </div>
+                </article>
+                <article className="experience_details">
+                  <HiBadgeCheck className="experience_details-icon" />
+                  <div>
+                    <h4>Tailwind Css</h4>
+                    <small className="text-light">Intermediate</small>
+                  </div>
+                </article>
+              </div>
+              <div className="experience_content-box-react">
+                <article className="experience_details">
+                  <HiBadgeCheck className="experience_details-icon" />
+                  <div>
+                    <h4>Java Script</h4>
+                    <small className="text-light">Intermediate</small>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div className="experience_content-mobile">
+              <div className="experience_content-box">
+                <article className="experience_details">
+                  <HiBadgeCheck className="experience_details-icon" />
+                  <div>
+                    <h4>H T M L</h4>
+                    <small className="text-light">Experienced</small>
+                  </div>
+                </article>
+                <article className="experience_details">
+                  <HiBadgeCheck className="experience_details-icon" />
+                  <div>
+                    <h4>Css</h4>
+                    <small className="text-light">Experienced</small>
+                  </div>
+                </article>
+                <article className="experience_details">
+                  <HiBadgeCheck className="experience_details-icon" />
+                  <div>
+                    <h4>Java Script</h4>
+                    <small className="text-light">Intermediate</small>
+                  </div>
+                </article>
+                <article className="experience_details">
+                  <HiBadgeCheck className="experience_details-icon" />
+                  <div>
+                    <h4>React Js</h4>
+                    <small className="text-light">Intermediate</small>
+                  </div>
+                </article>
+                <article className="experience_details">
+                  <HiBadgeCheck className="experience_details-icon" />
+                  <div>
+                    <h4>Redux</h4>
+                    <small className="text-light">Intermediate</small>
+                  </div>
+                </article>
+                <article className="experience_details">
+                  <HiBadgeCheck className="experience_details-icon" />
+                  <div>
+                    <h4>Tailwind Css</h4>
+                    <small className="text-light">Intermediate</small>
+                  </div>
+                </article>
+                <article className="experience_details">
+                  <HiBadgeCheck className="experience_details-icon" />
+                  <div>
+                    <h4>BootStrap</h4>
+                    <small className="text-light">Intermediate</small>
+                  </div>
+                </article>
+              </div>
             </div>
             {/* <h3 style={{ marginTop: "20px", marginBottom: "15px" }}>Soft Skills</h3> */}
           </motion.div>
@@ -104,35 +170,55 @@ const Experience = () => {
             className="experience_backend"
           >
             <h3>Soft Skills</h3>
-            <div className="experience_content">
-              <article className="experience_details">
-                <HiBadgeCheck className="experience_details-icon" />
-                <div>
-                  <h4>Communication Skills</h4>
-                  <small className="text-light">Intermediate</small>
-                </div>
-              </article>
-              <article className="experience_details">
-                <HiBadgeCheck className="experience_details-icon" />
-                <div>
-                  <h4>Decision Making</h4>
-                  <small className="text-light">Intermediate</small>
-                </div>
-              </article>
-              <article className="experience_details">
-                <HiBadgeCheck className="experience_details-icon" />
-                <div>
-                  <h4>MicroSoft Offise</h4>
-                  <small className="text-light">Experienced</small>
-                </div>
-              </article>
-              <article className="experience_details">
-                <HiBadgeCheck className="experience_details-icon" />
-                <div>
-                  <h4>PhotoShop</h4>
-                  <small className="text-light">Experienced</small>
-                </div>
-              </article>
+            <div className="experience_content soft-skills">
+              <div className="experience_content-box">
+                <article className="experience_details">
+                  <HiBadgeCheck className="experience_details-icon" />
+                  <div>
+                    <h4>Teamwork</h4>
+                    <small className="text-light">Intermediate</small>
+                  </div>
+                </article>
+                <article className="experience_details">
+                  <HiBadgeCheck className="experience_details-icon" />
+                  <div>
+                    <h4>Problem-solving</h4>
+                    <small className="text-light">Intermediate</small>
+                  </div>
+                </article>
+              </div>
+              <div className="experience_content-box">
+                <article className="experience_details">
+                  <HiBadgeCheck className="experience_details-icon" />
+                  <div>
+                    <h4>Adaptability</h4>
+                    <small className="text-light">Experienced</small>
+                  </div>
+                </article>
+                <article className="experience_details">
+                  <HiBadgeCheck className="experience_details-icon" />
+                  <div>
+                    <h4>Creativity</h4>
+                    <small className="text-light">Experienced</small>
+                  </div>
+                </article>
+              </div>
+              <div className="experience_content-box">
+                <article className="experience_details">
+                  <HiBadgeCheck className="experience_details-icon" />
+                  <div>
+                    <h4>Time management</h4>
+                    <small className="text-light">Experienced</small>
+                  </div>
+                </article>
+                <article className="experience_details">
+                  <HiBadgeCheck className="experience_details-icon" />
+                  <div>
+                    <h4>Work ethic</h4>
+                    <small className="text-light">Experienced</small>
+                  </div>
+                </article>
+              </div>
             </div>
           </motion.div>
         </div>

@@ -34,7 +34,7 @@ const Services = () => {
           </article>
           <article className="service">
             <div className="service_head">
-              <h3>Web Development</h3>
+              <h3>Web FrontEnd Development</h3>
             </div>
             <ul className="service_list">
               <li>
@@ -62,7 +62,10 @@ const Services = () => {
             <ul className="service_list">
               <li>
                 <FiCheck className="service_list-icon" />
-                <p>Full-day or half-day photo shoots/sessions with all necessary equipment</p>
+                <p>
+                  Full-day or half-day photo shoots/sessions with all necessary
+                  equipment
+                </p>
               </li>
               <li>
                 <FiCheck className="service_list-icon" />

@@ -134,7 +134,7 @@ const Protofilo = () => {
                   <img src={image4} alt="" />
                 </a>
               </div>
-              <h3>Login and account creation page</h3>
+              <h3>Login creation page</h3>
               <p
                 style={{
                   fontSize: "15px",

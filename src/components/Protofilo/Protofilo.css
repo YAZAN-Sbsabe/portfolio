@@ -41,7 +41,7 @@
 }
 .Protofilo .between-btn button.active,
 .Protofilo .between-btn button:hover.active {
-  color: var(--color-primary-variant) !important;
+  color: var(--color-primary) !important;
 }
 .Protofilo .between-btn button.active::before {
   position: absolute;
@@ -52,14 +52,14 @@
   bottom: -5px;
   border-radius: 50%;
   transition: all 0.5s ease-in-out;
-  transform: translate(50%);
+  /* transform: translate(50%); */
 }
 .Protofilo .between-btn button:hover::before {
   width: 120px;
   height: 2px;
   border-radius: 50%;
   transition: all 0.5s ease-in-out;
-  transform: translate(20%);
+  /* transform: translate(20%); */
 }
 .protofilo_container {
   display: grid;
